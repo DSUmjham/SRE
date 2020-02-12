@@ -2,14 +2,14 @@
 
 # GDB & Peda Cheat Sheet
 This guide is written to help Kali users get started with GDB and the Peda plugin once they are installed.  Another guide that is easy to follow is [Marc Haisenko's GDB cheatsheet](https://darkdust.net/files/GDB%20Cheat%20Sheet.pdf).
-* [Generic GDB and Peda Commands](##Generic-GDB-and-Peda-Commands)
-* [Working with Breakpoints](##Working-with-Breakpoints)
-* [Stepping and Navigation](##Stepping-and-Navigation)
-* [Displaying Bytes](##-Displaying-Bytes)
-    * [Format (f)](###Format-(f))
-    * [Unit (u)](###Units-(u))
-    * [Examples](###Examples)
-* [Where>](##where)
+* [Generic GDB and Peda Commands](#Generic-GDB-and-Peda-Commands)
+* [Working with Breakpoints](#Working-with-Breakpoints)
+* [Stepping and Navigation](#Stepping-and-Navigation)
+* [Displaying Bytes](#Displaying-Bytes)
+    * [Format (f)](#Format-(f))
+    * [Unit (u)](#Units-(u))
+    * [Examples](#Examples)
+* [Where](#where)
 
 ## Generic GDB and Peda Commands
 |Description | Command |
