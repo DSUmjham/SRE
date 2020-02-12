@@ -9,7 +9,7 @@ This guide is written to help Kali users get started with GDB and the Peda plugi
     * [Format (f)](###Format-(f))
     * [Unit (u)](###Units-(u))
     * [Examples](###Examples)
-* [<where>](##<where>)
+* [Where>](##where)
 
 ## Generic GDB and Peda Commands
 |Description | Command |
@@ -70,11 +70,14 @@ This guide is written to help Kali users get started with GDB and the Peda plugi
 1. Print out 32 words of hex beginning at ESP:  
 `x /32xw $esp`
 2. Dump 16 bytes of binary beginning at ESP - 0xC: 
+
 `x /16tb $esp-0xC`
+
 3. Print what is at EAX as a string: 
+
 `x /s $eax`
 
-## <where>
+## Where
 | Description | Format|
 |--|--|
 |Function name (e.g. main) | `main`|
