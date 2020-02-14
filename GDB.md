@@ -47,7 +47,8 @@ This guide is written to help Kali users get started with GDB and the Peda plugi
 ## Displaying Bytes
 |Description | Command|
 |--|--|
-|Display memory contents at location (n=number of units, f=format, u=unit) | `x /nfu <address>`
+|Display memory contents at location (n=number of units, f=format, u=unit) | `x /nfu <address>`|
+|Print value held in register (f=format) | print /f $<reg>|
 ### Format (f)
 * a - address
 * c - char
