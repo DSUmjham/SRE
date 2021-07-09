@@ -1,0 +1,16 @@
+0x401040 (main), e=       1 [PUSH ESI] ESI=1
+0x401041 (main+0x1), e=       1 [PUSH EDI] EDI=0x4054a0
+0x401042 (main+0x2), e=       1 [MOV EDI, [406220h]] [406220h]=0x73aa20c1
+0x401048 (main+0x8), e=       1 [MOV ESI, 2] 
+0x40104d (main+0xd), e=       1 [LEA ECX, [ECX]] [ECX]=0x331cd0
+0x401050 (main+0x10), e=       8 [PUSH ESI] ESI=2..9
+0x401051 (main+0x11), e=       8 [PUSH 405000h] 405000h=0x405000, "f(%d)\n"
+0x401056 (main+0x16), e=       8 [CALL EDI] op1=MSVCR90.dll!printftracing nested maximum level (1) reached, skipping this CALL
+0x401058 (main+0x18), e=       8 [INC ESI] ESI=2..9
+0x401059 (main+0x19), e=       8 [ADD ESP, 8] ESP=0x18ff38
+0x40105c (main+0x1c), e=       8 [CMP ESI, 0Ah] ESI=3..0xa
+0x40105f (main+0x1f), e=       8 [JL 401050h] SF=false,true OF=false
+0x401061 (main+0x21), e=       1 [POP EDI] 
+0x401062 (main+0x22), e=       1 [XOR EAX, EAX] 
+0x401064 (main+0x24), e=       1 [POP ESI] 
+0x401065 (main+0x25), e=       1 [RETN] EAX=0

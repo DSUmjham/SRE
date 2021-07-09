@@ -1,0 +1,12 @@
+Warning: no tracer.cfg file.
+160 symbols loaded from 24_for_loops_Ox.pdb
+PID=1604|New process 24_for_loops_Ox.exe
+no module registered with image base 0x76ac0000
+no module registered with image base 0x75f50000
+no module registered with image base 0x76ac0000
+no module registered with image base 0x76be0000
+Warning: unknown (to us) INT3 breakpoint at ntdll.dll!LdrVerifyImageMatchesChecksum+0x96c (0x76f60f3b)
+(0) 24_for_loops_Ox.exe!0x401040() (called from 24_for_loops_Ox.exe!__tmainCRTStartup+0x10f (0x4011df))
+(0) 24_for_loops_Ox.exe!0x401040() -> 0x0
+PID=1604|Process 24_for_loops_Ox.exe exited. ExitCode=0 (0x0)
+(cc) saved to 24_for_loops_Ox.exe.(idc/txt/idc_clear): 16 PCs

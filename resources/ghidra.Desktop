@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=Ghidra
+Exec=/opt/ghidra/ghidraRun
+Terminal=false
+Icon=ghidra
+Type=Application
+Categories=07-reverseengineer;
+X-Kali-Package=ghidra
